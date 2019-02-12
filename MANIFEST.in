@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include rnlabs *.css
+recursive-include rnlabs *.csv
+recursive-include rnlabs *.html
+recursive-include rnlabs *.ico
+recursive-include rnlabs *.js
+recursive-include rnlabs *.json
+recursive-include rnlabs *.md
+recursive-include rnlabs *.png
+recursive-include rnlabs *.py
+recursive-include rnlabs *.svg
+recursive-include rnlabs *.txt
+recursive-exclude rnlabs *.pyc
